@@ -13,6 +13,7 @@ import { MdOutlineStar } from "react-icons/md";
 import { MdOutlineStarHalf } from "react-icons/md";
 import { PiShoppingCartLight } from "react-icons/pi";
 import Footer from '../componets/Footer';
+import { IoTime } from "react-icons/io5";
 const AllProduct = () => {
   // Bu home yani All product page
   return (
@@ -162,25 +163,52 @@ const AllProduct = () => {
       {/* Bu Product end */}
 
       {/* Bu Blog start */}
-      <div className="Blog container mx-auto px-[5rem]">
-        <div className="title flex items-center justify-between mt-[3rem]">
-          <h1 className='text-[36px] font-[500] '>Our Blog.</h1>
-          <button className='text-[#359740] border-[2px] rounded-[5px] p-[4px] w-[155px] h-[51px]'>Go to our blog</button>
+      <div className="Cards_1 flex items-center gap-[2rem] justify-between container mx-auto px-[5rem]">
+        <div>
+        <div className='flex card_1 w-[830px] h-[370px] bg-[#EAF1EB] px-[40px] rounded-[20px] mt-[3rem] pt-[3rem]'>
+  <div>
+  <p className='flex items-center gap-[6px] text-[#70737C] text-[16px] '> <IoTime className='text-[20px]'/> 12.09.2021 </p> 
+      <h1 className='text-[29px] leading-[31px] font-[600] mt-[1rem] '>How to plant spinach correctly <br /> in winter</h1>
+      <p className='text-[16px] text-[#70737C] leading-[24.95px] my-[1rem]'>In most areas, successive sowing can be done from early <br /> spring until early winter, but more often during hotter <br /> months...</p>
+      <button className='w-[106px] h-[51px] bg-[#FFFFFF] rounded-[10px] text-[#359740] px-[10px]'>Read</button></div>
+     <div>
+     <img className='mt-[1.3rem] ' src="src/assets/image 2 (1).png" alt="" />
+     </div>
         </div>
-        <div className="cards ml-[2rem] mt-[3rem] ">
-          <div className='flex gap-[2rem]'>
-            <div>
-              <img className='w-[830px] h-[370px]' src="src/assets/Far.png" alt="" />
-              <div className='flex gap-[1.9rem] mt-[2rem]'>
-                <img className='w-[400px] h-[370px]' src="src/assets/Far1.png" alt="" />
-                <img className='w-[400px] h-[370px]' src="src/assets/Far1.png" alt="" />
-              </div>
-            </div>
-
-            <img className='w-[450px] h-[772px]' src="src/assets/Far2.png" alt="" />
+          <div className="strow flex gap-[2rem] mt-[2rem]">
+         <div className='w-[400px] h-[370px] bg-[#EFF2F8] rounded-[20px] px-[20px] pt-[3rem]'>
+         <div className='title'>
+      <p className='flex items-center gap-[6px] text-[#70737C] text-[16px] '> <IoTime className='text-[20px]'/> 12.09.2021 </p> 
+      <h1 className='text-[29px] leading-[31px] font-[600] mt-[1rem] my-[2rem] '>How to plant spinach correctly  in winter</h1>
+      <button className='w-[106px] h-[51px] bg-[#FFFFFF] rounded-[10px] text-[#359740] px-[10px]'>Read</button>
+   </div>
+   <div>
+    <img className='ml-[11.5rem]' src="src/assets/Graned.png" alt="" />
+   </div>
+         </div>
+         <div className='w-[400px] h-[370px] bg-[#EFF2F8] rounded-[20px] px-[20px] pt-[3rem]'>
+         <div className='title'>
+      <p className='flex items-center gap-[6px] text-[#70737C] text-[16px] '> <IoTime className='text-[20px]'/> 12.09.2021 </p> 
+      <h1 className='text-[29px] leading-[31px] font-[600] mt-[1rem] my-[2rem] '>How to plant spinach correctly  in winter</h1>
+      <button className='w-[106px] h-[51px] bg-[#FFFFFF] rounded-[10px] text-[#359740] px-[10px]'>Read</button>
+   </div>
+   <div>
+    <img className='ml-[11.5rem]' src="src/assets/Qulupnay.png" alt="" />
+   </div>
+         </div>
           </div>
         </div>
-
+        <div className='w-[450px] h-[772px]  bg-[#EFF2F8] px-[20px] rounded-[20px] pt-[2rem] mt-[2.9rem]'>
+         <div>
+         <p className='flex items-center gap-[6px] text-[#70737C] text-[16px] '> <IoTime className='text-[20px]'/> 12.09.2021 </p> 
+      <h1 className='text-[29px] leading-[31px] font-[600] mt-[1rem] '>How to plant spinach <br /> correctly  in winter</h1>
+      <p className='text-[16px] text-[#70737C] leading-[24.95px] my-[1rem]'>In most areas, successive sowing can be <br /> done from early  spring until early winter, but <br /> more often during hotter  months...</p>
+      <button className='w-[106px] h-[51px] bg-[#FFFFFF] rounded-[10px] text-[#359740] px-[10px]'>Read</button>
+         </div>
+         <div className=''>
+          <img className='mt-[5.3rem] ml-[7rem]' src="src/assets/Opacha.png" alt="" />
+         </div>
+        </div>
       </div>
       {/* Bu Blog end */}
 
@@ -269,10 +297,10 @@ const AllProduct = () => {
             <br /> Proudly sourced in the USA - our garden seeds are grown, <br /> harvested, and packaged in the USA. We support local farmers and <br /> are happy to produce this American-made product</p>
         </div>
         <div className="">
-      <img className='absolute right-[19vh] bottom-[-340vh]' src="src/assets/OKEY.png" alt="" />
-      <img className='absolute bottom-[-345.5vh] right-[14vh]'  src="src/assets/OKe.png" alt="" />
-      <img className='absolute right-[73vh] bottom-[-310.5vh]' src="src/assets/Go.png" alt="" />
-      <img className='absolute right-[73vh] bottom-[-345.5vh]  ' src="src/assets/Myata2.png" alt="" />
+      <img className='absolute right-[19vh] bottom-[-330vh]' src="src/assets/OKEY.png" alt="" />
+      <img className='absolute bottom-[-335.5vh] right-[14vh]'  src="src/assets/OKe.png" alt="" />
+      <img className='absolute right-[73vh] bottom-[-300.5vh]' src="src/assets/Go.png" alt="" />
+      <img className='absolute right-[73vh] bottom-[-335.5vh]  ' src="src/assets/Myata2.png" alt="" />
         </div>
       </div>
       </div>
