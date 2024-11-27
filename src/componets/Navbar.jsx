@@ -7,7 +7,7 @@ import { CiHeart } from "react-icons/ci";
 import { PiShoppingCartLight } from "react-icons/pi";
 const Navbar = () => {
   return (
-    <nav className='mt-[2rem]'>
+    <nav className=' border-b-[2px] py-[2rem]'>
         <div className='container mx-auto px-[5rem] flex items-center justify-between'>
     <div className="logo">
         <img src="src/assets/LOGO.png" alt="" />
@@ -30,17 +30,17 @@ const Navbar = () => {
     </div>
     <div className="search flex items-center gap-[2rem] ">
         <div className="icon flex items-center gap-[10px]">
-            <FaInstagram className=''/>
-            <FaFacebook/>
+            <FaInstagram className='text-[#70737C] text-[1.6rem]'/>
+            <FaFacebook className='text-[#70737C] text-[1.6rem]'/>
         </div>
         <div className='flex items-center '>
-        <FaSearch/>
-        <input className='border-[2px] rounded-[10px] px-[1.5rem]' type="text"  placeholder='Search ' />
+        <FaSearch className='absolute left-[68.9rem] text-[#70737C]'/>
+        <input className='border-[2px] rounded-[20px] px-[3rem] py-[7px]' type="text"  placeholder='Search ' />
         </div>
         
         <div className="icon flex items-center gap-[10px]">
-            <CiHeart/>
-            <PiShoppingCartLight/>
+            <CiHeart className='text-[1.6rem] text-[#359740]'/>
+            <PiShoppingCartLight className='text-[1.6rem] text-[#359740]'/>
         </div>
     </div>
     </div>
