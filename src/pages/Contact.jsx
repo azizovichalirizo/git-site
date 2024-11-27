@@ -22,9 +22,9 @@ const Contact = () => {
              <h1 className='text-[#70737C]'>Name</h1>
              <input className='border-[2px] w-[590px] h-[83px]  rounded-[20px] pl-[2rem] my-[10px]' type="text"  placeholder='Your name'/>
              <h1 className='text-[#70737C]'>E-mail</h1>
-             <input className='border-[2px] w-[590px] h-[83px]  rounded-[20px] pl-[2rem] my-[10px]' type="text"  placeholder='Your name'/>
+             <input className='border-[2px] w-[590px] h-[83px]  rounded-[20px] pl-[2rem] my-[10px]' type="text"  placeholder='Your email'/>
              <h1 className='text-[#70737C]'>Massage</h1>
-             <input className='border-[2px] w-[590px] h-[133px]  rounded-[20px] pl-[2rem] my-[10px]' type="text"  placeholder='Your name'/>
+             <input className='border-[2px] w-[590px] h-[133px]  rounded-[20px] pl-[2rem] my-[10px]' type="text"  placeholder='get Massage'/>
        <div className='flex items-center gap-[1rem]'>
        <button className='bg-[#359740] text-[white] w-[160px] h-[51px] rounded-[10px]'>Send request </button>
        <h1 className='text-[#70737C]'>By sending request you agree to <br /> out Pivacy&Policy</h1>

@@ -19,13 +19,13 @@ const Navbar = () => {
                 <NavLink to={"/"} >ALL PRODUCTS</NavLink>
             </li>
             <li className='border-x-[2px] px-[30px]'>
-                <NavLink to={"About"}>ABOUT SEEDRA</NavLink>
+                <NavLink to={"/About"}>ABOUT SEEDRA</NavLink>
             </li>
             <li className='mr-[1rem]'>
-                <NavLink to={"Blog"}>OUR BLOG</NavLink>
+                <NavLink to={"/Blog"}>OUR BLOG</NavLink>
             </li>
             <li className='border-l-[2px] px-[7px]'>
-                <NavLink to={"Contact"}>CONTACTS</NavLink>
+                <NavLink to={"/Contact"}>CONTACTS</NavLink>
             </li> 
         </ul>
     </div>

@@ -29,7 +29,7 @@ const AllProduct = () => {
             <div className="icons flex gap-[1rem] items-center my-[2rem] ">
               <GiCelebrationFire className='text-[#E55C5C] text-[42px]' />
               <h1 className='text-[42px] font-bold '>$12.56</h1>
-              <h1 className='text-[#70737C] text-[22px]'>$15.56</h1>
+              <h1 className='text-[#70737C] line-through text-[22px]'>$15.56</h1>
             </div>
             <div className="btn flex gap-[1rem]">
               <button className='w-[153px] h-[51px] bg-[#359740] text-[18px] text-[white] rounded-[20px] '>Add to card</button>
