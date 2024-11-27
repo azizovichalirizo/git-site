@@ -19,7 +19,7 @@ const AllProduct = () => {
     <>
       <Navbar />
       {/* Bu Header start */}
-      <header className='container mx-auto px-[5rem] mt-[5rem]'>
+      <header className='container mx-auto px-[5rem]  mt-[5rem]'>
         <div className='w-[1400px] h-[500px] bg-[#EAF1EB] rounded-[20px] conatiner mx-auto  px-[8rem] flex items-center justify-between'>
           <div className="title">
             <h1 className='text-[48px] text-[#1F2533] font-[500] leading-[54px]'>SEEDRA Basil Seeds for <br /> Indoor and Outdoor Planting</h1>
@@ -36,8 +36,8 @@ const AllProduct = () => {
             </div>
           </div>
           <div className="img">
-            <img className='absolute bottom-[3rem] right-[3.5rem]' src="src/assets/MYata.png" alt="" />
-            <img className='absolute bottom-[3rem] left-[60rem] w-[400px]' src="src/assets/NArkotik.png" alt="" />
+            <img className='absolute bottom-[8rem] right-[8rem]' src="src/assets/MYata.png" alt="" />
+            <img className='absolute bottom-[8rem] left-[68rem] w-[400px]' src="src/assets/NArkotik.png" alt="" />
 
             <img src="src/assets/OK.png" className='absolute right-[28rem] bottom-[20rem]' alt="" />
 
@@ -45,18 +45,18 @@ const AllProduct = () => {
         </div>
         <div className='w-[1400px] h-[104px] bg-[#FFE62E] rounded-[20px] conatiner mx-auto  px-[8rem] flex items-center justify-between mt-[2rem]'>
           <div>
-            <img className='absolute bottom-[-5.3rem]' src="src/assets/Lemon.png" alt="" />
-            <img className='absolute left-[16rem] bottom-[-3rem]' src="src/assets/Barg2.png" alt="" />
-            <img className='absolute bottom-[-2rem] left-[10rem]' src="src/assets/Barg.png" alt="" />
+            <img className='absolute bottom-[-.6rem]' src="src/assets/Lemon.png" alt="" />
+            <img className='absolute left-[16rem] bottom-[2rem]' src="src/assets/Barg2.png" alt="" />
+            <img className='absolute bottom-[3rem] left-[10rem]' src="src/assets/Barg.png" alt="" />
           </div>
           <div className='text-center'>
             <h1 className='text-[24px] font-[600]'>We sell seeds </h1>
             <p className='text-[#70737C] '>that always sprout and gardening supplies which never break</p>
           </div>
           <div>
-            <img className='absolute bottom-[-5.3rem]' src="src/assets/Barg2.png" alt="" />
-            <img className='absolute right-[11rem] bottom-[-4rem]' src="src/assets/Barg.png " alt="" />
-            <img className='absolute bottom-[-2rem]' src="src/assets/Donak.png" alt="" />
+            <img className='absolute bottom-[rem] right-[20rem]' src="src/assets/Barg2.png" alt="" />
+            <img className='absolute right-[11rem] bottom-[rem]' src="src/assets/Barg.png " alt="" />
+            <img className='absolute bottom-[2.8rem]' src="src/assets/Donak.png" alt="" />
           </div>
         </div>
       </header>
@@ -268,11 +268,11 @@ const AllProduct = () => {
 
             <br /> Proudly sourced in the USA - our garden seeds are grown, <br /> harvested, and packaged in the USA. We support local farmers and <br /> are happy to produce this American-made product</p>
         </div>
-        <div className="img">
-      <img className='absolute right-[19vh] bottom-[-385vh]' src="src/assets/OKEY.png" alt="" />
-      <img className='absolute bottom-[-390.5vh] right-[14vh]'  src="src/assets/OKe.png" alt="" />
-      <img className='absolute right-[73vh] bottom-[-355.5vh]' src="src/assets/Go.png" alt="" />
-      <img className='absolute right-[73vh] bottom-[-390.5vh]  ' src="src/assets/Myata2.png" alt="" />
+        <div className="">
+      <img className='absolute right-[19vh] bottom-[-340vh]' src="src/assets/OKEY.png" alt="" />
+      <img className='absolute bottom-[-345.5vh] right-[14vh]'  src="src/assets/OKe.png" alt="" />
+      <img className='absolute right-[73vh] bottom-[-310.5vh]' src="src/assets/Go.png" alt="" />
+      <img className='absolute right-[73vh] bottom-[-345.5vh]  ' src="src/assets/Myata2.png" alt="" />
         </div>
       </div>
       </div>

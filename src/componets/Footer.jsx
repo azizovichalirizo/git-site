@@ -4,7 +4,7 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
 const Footer = () => {
   return (
-    <div className='container mx-auto px-[5rem] mt-[3rem] mb-[5rem]'>
+    <div className='container mx-auto px-[5rem] mt-[4rem] mb-[5rem]'>
         <div className="Group ">
         <ul className='flex items-center gap-[3rem] text-[20px] text-[#70737C] font-[500]'>
             <li className='ml-[3rem]'>

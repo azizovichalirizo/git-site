@@ -15,10 +15,10 @@ const Navbar = () => {
     <div className="group">
         <ul className='flex items-center gap-[3rem] text-[14px] text-[#70737C] font-[500]'>
             <li className='ml-[3rem]'>
-                <NavLink>ALL PRODUCTS</NavLink>
+                <NavLink to={"/"} >ALL PRODUCTS</NavLink>
             </li>
             <li className='border-x-[2px] px-[30px]'>
-                <NavLink>ABOUT SEEDRA</NavLink>
+                <NavLink to={"About"}>ABOUT SEEDRA</NavLink>
             </li>
             <li className='mr-[1rem]'>
                 <NavLink>OUR BLOG</NavLink>
@@ -34,7 +34,7 @@ const Navbar = () => {
             <FaFacebook className='text-[#70737C] text-[1.6rem]'/>
         </div>
         <div className='flex items-center '>
-        <FaSearch className='absolute left-[68.9rem] text-[#70737C]'/>
+        <FaSearch className='absolute left-[73.5rem] text-[#70737C]'/>
         <input className='border-[2px] rounded-[20px] px-[3rem] py-[7px]' type="text"  placeholder='Search ' />
         </div>
         
